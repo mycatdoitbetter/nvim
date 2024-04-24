@@ -34,7 +34,8 @@ if true then return {
       },
     },
   },
-  {'akinsho/toggleterm.nvim', version = "*", config = true}
+  {'akinsho/toggleterm.nvim', version = "*", config = true},
+  {'tamton-aquib/keys.nvim' }
 } end
 
 -- every spec file under the "plugins" directory will be loaded automatically by lazy.nvim
