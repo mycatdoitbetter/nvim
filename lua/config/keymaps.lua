@@ -30,8 +30,8 @@ keymap.set("n", "<Tab>", "[b", opts)
 keymap.set("n", "<S-Tab>", "]b", opts)
 
 -- Copy line down and up
-keymap.set("n", "<A-S-Down>", "yyp", opts)
-keymap.set("n", "<A-S-Up>", "yykp", opts)
+keymap.set("n", "<A-S-j>", "yyp", opts)
+keymap.set("n", "<A-S-k>", "yykp", opts)
 
 -- Split window
 keymap.set("n", "ss", ":split<Return>", opts)
